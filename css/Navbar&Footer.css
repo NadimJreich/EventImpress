@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Headers Section */
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+}
+
+.big-heading {
+ 
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+.section-heading {
+ font-size: 3.5rem;
+   line-height: 1.5;
+}
+     
+
+
+
+/* title section */
+
+#title {
+   background-color: #144272;
+   color: lightblue;
+    text-align: left; /*or we can put the text-alight: left in the .big-heading class */
+   
+}
+
+#title .container-fluid {
+ margin-top: 10px;
+ padding: 3% 10% 0%;
+ height:30px;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;  
+}
+
+.active-link {
+  border-style: none none solid; /*none on top and left right but double on the bottom */
+ border-width: 3px;
+ border-color: white;
+ color: white;
+}
+
+.navbar {
+   padding:0 0 4.5rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+   font-weight: light;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+ color: white;
+}
+
+
+.navbar-brand
+   {
+     font-size: 2.5rem;
+     font-weight: bold;
+     font-family: 'Ubuntu', sans-serif;
+     color: lightblue;
+     
+   } 
+
+   .navbar-brand img {
+     width: 120px;
+     height: 130px;
+     margin-top: 30px;
+    
+    }
+     
+     
+     
+
+   @media (max-width: 900px) {
+     .navbar-brand img {
+       display: none;
+     }
+   
+     
+   }
+
+    /* footer section */
+   
+    #footer {
+        background-color: white;
+        
+    
+        font-size: 20px;
+      }
+      #footer .container-fluid {
+        padding: 4% 15%;
+      } 
+      
+      .footer-parag {
+        font-size: 20px;
+      }
+    
+      .social-icon {
+        margin: 20px 10px;
+      }
+
+      #footer a {
+        list-style-type: none;
+        color: black;
+      }
+      #footer a:hover {
+        color: lightblue;
+      }
+
+      #footer i {
+        font-size: 25px;
+      }
+
+      
+
+      @media (max-width: 1048px) { 
+    
+        #title .container-fluid {
+          margin-top: 10px;
+          padding: 3% 10% 0%;
+          height: auto;
+        }
+       .press-header h2 {
+         text-align: center;
+         font-size: 2rem;
+       }
+    
+       .press-header {
+        width: auto;
+       }
+       
+       .press-image {
+        width: 24%;
+       }
+    
+     .nav-item {
+      text-align: center;
+     }
+    
+    .carousel-pic {
+      height: 370px;
+    }
+    
+.footer-cntct {
+  height: 10px;
+}
+    
+      }

@@ -1,0 +1,162 @@
+
+
+  /* Carousel Section */
+  .carousel-pic {
+    width: 100%;  /*to fit the images perfectly on the web page */
+    height: 650px;
+    filter: grayscale(40%);
+    
+  }
+  
+    
+  .carousel-header {
+    font-size: 40px;
+  }
+
+  .carousel-text {
+    margin-bottom: 500px;
+    background-color: #144272;
+    font-weight:800;
+    color:white;
+    display: inline-block;
+    width: 220px;
+  }
+
+  .carousel-text-exeption {
+    margin-bottom: 500px;
+    background-color: #144272;
+    font-weight:800;
+    color:white;
+    display: inline-block;
+    width: 280px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-right: auto;
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 0 12rem 12rem 0;
+  
+  }
+
+  .carousel-control-next-icon {
+    margin-left: auto;
+    width: 45px;
+    height: 45px;
+    background-color: grey;
+    border-radius: 12rem 0 0 12rem;
+    
+  }
+
+
+
+  /* Features Section */
+  
+  
+
+ .feature-image {
+    color:#144272;
+    margin-bottom: 1rem;
+    /* we can use font-size because it is defined as <i> element for italic to change the icons size. */
+ }
+
+ .feature-image:hover {
+    color: #2C74B3;
+ }
+.feature-title {
+  font-size: 1.5rem;
+}
+ .feature-section {
+    text-align: center;
+    padding: 4%;
+ }
+
+ #features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+ }
+
+p {
+    color: #8f8f8f;
+}
+
+.check-icon {
+  color: rgb(3, 169, 3);
+}
+
+.xmark-icon {
+  color: red;
+}
+
+/* Press Section */
+  #press {
+    background-color: #205295;
+    padding-bottom: 3%;
+   
+    
+  }
+
+  .press-header {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+   
+  }
+ .press-header h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+ }
+   
+
+  .press-image {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    margin-top: 20px;
+
+  }
+
+   /* Pricing Section */
+
+  .price-text {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+   #pricing {
+    padding: 100px;
+    
+   }
+
+   .pricing-column {
+    padding: 3% 2%;
+   }
+
+
+
+   /* cta section */
+   #cta {
+    background-color: #2C74B3;
+    
+   }
+
+
+   .cta-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:3.5rem;
+    line-height: 1.5;
+    color: lightblue;
+   }
+   
+  
+ 
+ 
+
+
+
+  
+ 

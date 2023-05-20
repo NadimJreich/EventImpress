@@ -1,0 +1,48 @@
+
+   /* About Us Section */
+   .about-header {
+    text-align: center;
+    color: #144272;
+    display: inline;
+    border-style: none none solid;
+    border-width: 5px;
+    border-color: #144272;
+   }
+   .about-parag {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 1.8;
+   }
+
+   .about-parag::before {
+    content: "W";
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #144272;
+   }
+
+   /* footer section */
+   
+
+  hr {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: black; /* Modern Browsers */
+    opacity: 100%;
+}
+
+@media (max-width: 1012px) {
+    
+  #title .container-fluid {
+    margin-top: 10px;
+    padding: 3% 10% 0%;
+    height: auto;
+  }
+
+.nav-item {
+text-align: center;
+}
+}

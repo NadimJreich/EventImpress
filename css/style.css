@@ -1,0 +1,252 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Headers Section */
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+}
+
+.big-heading {
+ 
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+.section-heading {
+ font-size: 3.5rem;
+   line-height: 1.5;
+}
+     
+
+
+
+/* title section */
+
+#title {
+   background-color: #144272;
+   color: lightblue;
+    text-align: left; /*or we can put the text-alight: left in the .big-heading class */
+   
+}
+
+#title .container-fluid {
+ padding: 3% 15%;
+}
+
+.login-box {
+   position: relative;
+   /* top: 80%; */
+   top: 30%;
+   left: 38%;
+  
+   width: 400px;
+   padding: 30px;
+   transform: translate(-50%, -50%);  /* To move the loign box by its coordinates X and Y */
+   /* background: rgb(2,0,36); test */
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,66,114,1) 56%, rgba(44,116,179,1) 100%);
+   /* background: rgba(24, 20, 20, 0.987);  test*/
+   box-sizing: border-box; /*it will allow us to include the padding and border in an element's total width and height */
+   box-shadow: 0 15px 25px rgba(0,0,0,.6);
+   border-radius: 10px;
+   /* margin: 150px 0px 1px 200px; */
+ }
+ 
+ .login-box .user-box {
+   position: relative;
+ }
+ 
+ .login-box .user-box input {
+   width: 100%;
+   padding: 10px 0;
+   font-size: 16px;
+   color: #fff;
+   margin-bottom: 30px;
+   border: none;
+   border-bottom: 1px solid #fff;
+   outline: none;
+   background: transparent;
+ }
+ 
+ .login-box .user-box label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 10px 0;
+   font-size: 16px;
+   color: #fff;
+   pointer-events: none;  /*allows for control over how HTML elements respond to mouse/touch events */
+   transition: .5s;
+ }
+ 
+ .login-box .user-box input:focus ~ label,  /*targets an input element that has focus, meaning it is currently selected or being interacted with by the user (ex: when user interacts with the input box, the label will change to grey 
+ ~ label is  a sibling selector that will target the label after the input*/
+ .login-box .user-box input:valid ~ label {  /*the valid pseudo class means that while the input is still valid means theres still data in it, the label will still be on top/ have a -20 top */
+   top: -20px;
+   left: 0;
+   color: #bdb8b8;
+   font-size: 12px;
+ }
+ 
+ .login-box form a {
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   color: #ffffff;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;  /*to not let anything outisde the login box be visible */
+   transition: .5s;
+   margin-top: 40px;
+   letter-spacing: 4px
+ }
+ 
+ .login-box a:hover {
+   background: #144272;
+   color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 5px  lightblue,
+               0 0 25px lightblue,
+               0 0 50px lightblue,
+               0 0 100px lightblue;
+ }
+ 
+ .login-box a span {
+   position: absolute;
+   display: block;
+ }
+ 
+ @keyframes btn-anim1 {
+   0% {
+     left: -100%;
+   }
+ 
+   50%,100% {
+     left: 100%;
+   }
+ }
+ 
+ .login-box a span:nth-child(1) {  /*targets the first child <span> */
+   bottom: 2px;
+   left: -100%;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg, transparent, lightblue);
+   animation: btn-anim1 2s linear infinite; /*we are using this animation linearly with 2s between phases and have infinite rounds */
+ }
+
+ 
+ .container-fluid {
+    padding: 7% 15%;  /* that's 3% on top, 15% left and right, and 7% on the bottom  */
+}
+
+
+
+.navbar {
+   padding:0 0 4.5rem;
+}
+
+.nav-item {
+   padding: 0 18px;
+   font-weight: light;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+ color: white;
+}
+
+
+.navbar-brand
+   {
+     font-size: 2.5rem;
+     font-weight: bold;
+     font-family: 'Ubuntu', sans-serif;
+     color: lightblue;
+   }
+
+
+.website-btn {
+    width: 340px;
+    height: 50px;
+}
+.image-title {
+   width: 50%;
+   position: relative;
+   left: 25%;
+
+   
+ }
+  /* footer section */
+   
+  #footer {
+    background-color:#144272;
+    
+
+    font-size: 20px;
+  }
+  #footer .container-fluid {
+    padding: 4% 15%;
+  } 
+  
+  .footer-parag {
+    font-size: 20px;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+  #footer a {
+    list-style-type: none;
+    color: black;
+  }
+  #footer a:hover {
+    color: lightblue;
+  }
+
+  #footer i {
+    font-size: 25px;
+  }
+
+     @media (max-width: 1048px)
+     {
+      
+      
+      #title {
+         height: 90vh;/* vh is for viewport so 1vh is 1%. */
+      }
+       .big-heading {
+         text-align: center;
+       }
+     
+      .login-box {
+        left: 50%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+      }
+     
+     
+
+       .nav-item {
+        text-align: center;
+       }
+
+       #footer {
+        background-color: #144272;
+       }
+       
+      }
+
+       
+ 

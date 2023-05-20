@@ -1,0 +1,366 @@
+
+
+/* LEFT TAB SECTION */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #144272;
+  
+}
+
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background-color:  #144272;
+  user-select: none;
+  
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid black;
+  transition: .4s;  /*to make a transition when hovering on an li */
+  text-decoration: none;
+}
+
+ul li:hover .sidebar_a {
+  padding-left: 60px;  /*to make an animation */
+  color:  #2C74B3;
+  background-color: lightblue;
+  text-decoration: underline;
+  
+}
+
+.sidebar ul a i {
+  margin-right: 16px;
+}
+
+.left_ul {
+   padding: 0px; /*to remove the padding that is being added because of the ul of the navbar */
+}
+
+
+/*Product Section */
+.cards {
+  margin-left: 300px;
+  margin-top: 40px;
+  
+  
+}
+.card {
+  width: 200px;
+  height: fit-content;
+ margin-right: 40px;
+ margin-bottom: 40px;
+ border-color: #2C74B3;
+ transition: 0.4s ease-in-out;
+ cursor: pointer;
+ 
+
+}
+
+.card:hover {
+  
+  transform: scale(1.1);
+  
+  transition: 0.3s ease-in-out;
+}
+
+  .card-title {
+    margin-top: -7px;
+  }
+
+.card-body p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  
+}
+
+
+.btn-outline-dark {
+  color:#2C74B3;
+  border-color: #2C74B3;
+
+  
+}
+
+.btn-outline-dark:hover {
+  background-color: #144272;
+  color: white;
+  
+}
+
+.cards img {
+  width: 200px;
+}
+
+.cards h5 {
+  margin-bottom: 5px;
+  
+
+}
+
+.card-loc {
+  border-bottom: 2px solid;
+  
+  
+}
+
+.height {
+  width:250px;
+  height: 100%;
+  background-color:#144272;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.cards1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards7 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards8 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards9 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards10 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards11 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards12 {
+  display: flex;
+  flex-direction: row;
+}
+
+.active {
+  color: white;
+  padding-left: 30px;  /*to make an animation */
+  background-color: lightblue;
+  text-decoration: underline;
+
+
+}
+
+
+
+#festsec {
+  display: none;
+}
+
+#partiessec {
+  display: none;
+}
+
+#showsec {
+  display: none;
+}
+
+#businesssec {
+  display: none;
+}
+
+#sportsec {
+  display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1366px) {
+    
+   #title .container-fluid {
+     margin-top: 10px;
+     padding: 3% 10% 0%;
+     height: auto;
+   }
+
+   .nav-item {
+    text-align: center;
+   
+   }
+
+  }
+   
+@media (max-width:1048px) {
+  /* #mini-hidden {
+   display: none;
+  }
+
+  .sidebar_a {
+    text-align: left;
+  }
+
+  .sidebar {
+    width: 100px;
+  }
+
+  .height {
+    width: 100px;
+    position: fixed;  to fix the clone sidebar to not have any blank texture 
+  } */
+
+  .cards {
+
+    margin-left: 49%;
+   
+  }
+
+  .cards1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards7 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards8 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards9 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards10 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards11 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards12 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+
+  .card:hover {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    transform: scale(1.1);
+    
+    transition: 0.3s ease-in-out;
+  }
+ 
+  .active {
+    color: white;
+    padding-left: 20px;  /*to make an animation */
+    background-color: lightblue;
+    text-decoration: underline;
+  }
+
+  ul li:hover .sidebar_a {
+    padding-left: 50px;  /*to make an animation */
+    color:  #2C74B3;
+    background-color: lightblue;
+    text-decoration: underline;
+    
+  }
+}
+
+
+
+  
+
+
+  
+  
+
+
+
